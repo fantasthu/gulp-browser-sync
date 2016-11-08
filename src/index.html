@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- build:css css/index.css -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- endbuild -->
+</head>
+<body>
+this is index,hello world <br>
+<header></header>
+<!-- build:js js/index.js -->
+<script src="./js/vender/jquery.min.js"></script>
+<script src="./js/vender/riot.min.compile.js"></script>
+<!-- endbuild -->
+<script src="./component/header.tag" type="riot/tag" ></script>
+<script>
+    riot.mount("*") ;
+</script>
+</body>
+</html>
